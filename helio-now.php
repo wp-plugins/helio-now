@@ -74,7 +74,7 @@ class Helio_Now extends WP_Widget {
 			<label for="<?=$this->get_field_id('title'); ?>"><?php _e('Title:'); ?></label> 
 			<input class="widefat" id="<?=$this->get_field_id('title'); ?>" name="<?=$this->get_field_name('title'); ?>" type="text" value="<?=esc_attr($title); ?>">
 		</p>
-		Image datasource layer(s):
+		<h4>Image datasource layer(s)</h4>
 		<p>
 		<select name="<?=$this->get_field_name('layers'); ?>" id="<?=$this->get_field_id('layers'); ?>">
 			<?php foreach($this->layers as $k=>$v) : ?>
@@ -94,6 +94,7 @@ class Helio_Now extends WP_Widget {
 		<input class="checkbox" type="checkbox" <?php checked($display_data, 'on'); ?> id="<?=$this->get_field_id('display_data'); ?>" name="<?=$this->get_field_name('display_data'); ?>" /> 
 		<label for="<?=$this->get_field_id('display_data'); ?>"> Display Data</label>
 		</p>
+		<h4>Background</h4>
 		<p>
 		<?php
 		$bg = (isset($instance['bg']) && is_numeric($instance['bg'])) ? (int) $instance['bg'] : 0;
