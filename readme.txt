@@ -21,6 +21,10 @@ SDO (NASA), SOHO (ESA/NASA), STEREO (NASA), PROBA2 (ESA), Yohkoh (JAXA/NASA/PPAR
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add the widget to your sidebar from Appearance->Widgets and configure the widget options.
 
+== Screenshots ==
+
+1. Widget View
+
 == Changelog ==
 
 = 0.1 =
