@@ -2,7 +2,7 @@
 
 /**
 Plugin Name: Helio Now
-Description: Helio Now is a Widget which displays information from observatories watched the Sun. It displays the latest photo of the sun, made in the observatory, which can be selected in the plugin settings.
+Description: Helio Now is a Widget which displays information from observatories watched the Sun. 
 Version: 0.1
 Author: Limeira Studio
 Author URI: http://www.limeirastudio.com/

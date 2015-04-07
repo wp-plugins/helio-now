@@ -5,7 +5,7 @@ Requires at least: 3.0.1
 Tested up to: 4.1.1
 Stable tag: 0.1
 
-Helio Now is a Widget which displays information from observatories watched the Sun. It displays the latest photo of the sun, made in the observatory, which can be selected in the plugin settings.
+Helio Now is a Widget which displays information from observatories watched the Sun. It displays the latest photo of the sun.
 
 == Description ==
 
